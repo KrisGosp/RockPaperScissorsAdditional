@@ -1,0 +1,52 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+body {
+    background: rgb(163, 99, 99);
+    font-size: 3em;
+    color: rgb(99, 55, 39)
+}
+.container {
+    padding: 30px;
+    border: 5px solid white;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+.buttons {
+    display: flex;
+    justify-content: space-between;
+}
+button {
+    font-size: 1em;
+    padding: 0 32px;
+}
+.current-play {
+    height: 100px;
+    display: flex;
+    justify-content: center;
+}
+.total-score {
+    display: flex;
+    /* justify-content: space-between; */
+    padding-bottom: 40px;
+}
+h2 {
+    padding-bottom: 40px;
+}
+.player {
+    padding-right: 230px;
+}
+.play-again {
+    display: flex;
+    margin-left: 180px;
+    margin-bottom: 30px;
+}
+.play-again > a {
+    border: 2px dotted white;
+    text-decoration: none;
+    color:rgb(99, 55, 39);
+    padding: 5px 20px;
+}
